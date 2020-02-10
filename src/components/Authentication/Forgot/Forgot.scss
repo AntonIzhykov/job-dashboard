@@ -1,0 +1,18 @@
+.forgot-page {
+  width: 35%;
+  padding: 74px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .lock-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 54px auto;
+  }
+
+  .title {
+    margin-top: 0;
+  }
+}

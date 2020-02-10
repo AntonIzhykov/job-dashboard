@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 38px 21px 20px;
+  font-size: 14px;
+  position: relative;
+  border-bottom: 1px solid #c4c4c4;
+  width: 100%;
+
+  .progress {
+    height: 4px;
+    background: black;
+    margin-left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .d-flex {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .breadcrumbs {
+      font-family: Roboto, sans-serif;
+    }
+
+    .brand {
+      font-size: 18px;
+      font-weight: bold;
+      width: 20%;
+      text-align: left;
+    }
+
+    a {
+      font-weight: bold;
+    }
+
+    .right-part {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+    }
+  }
+}

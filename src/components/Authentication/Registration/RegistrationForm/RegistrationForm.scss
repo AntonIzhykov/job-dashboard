@@ -1,0 +1,34 @@
+.register-form {
+  text-align: left;
+  width: 100%;
+  max-width: 428px;
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto 32px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  .agreement {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-left: 12px;
+
+      &.with-underline {
+        margin-left: 0;
+        cursor: pointer;
+        border-bottom: 1px solid;
+      }
+    }
+  }
+
+  .button {
+    margin-top: 72px;
+  }
+}

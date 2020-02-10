@@ -1,0 +1,10 @@
+.registration-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  & > .d-flex {
+    padding: 40px 133px 80px 245px;
+    justify-content: space-between;
+  }
+}

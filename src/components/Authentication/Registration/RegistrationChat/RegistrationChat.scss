@@ -1,0 +1,18 @@
+.register-chat {
+  width: 100%;
+  max-width: 336px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  .messages {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .chat {
+    width: 100%;
+    max-width: 316px;
+  }
+}

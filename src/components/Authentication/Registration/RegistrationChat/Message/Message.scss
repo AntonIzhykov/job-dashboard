@@ -1,0 +1,31 @@
+.message-wrapper {
+  width: 100%;
+  position: relative;
+  margin-bottom: 12px;
+  display: flex;
+
+  .avatar {
+    //position: absolute;
+    width: 41px;
+    min-width: 41px;
+    height: 41px;
+    border-radius: 100%;
+    background: black;
+    top: 0;
+    left: 0;
+  }
+
+  .text-wrapper {
+    padding: 16px;
+    background: black;
+    margin: 21px 0 0 8px;
+    width: 100%;
+    border-radius: 4px 30px 30px;
+
+    .text {
+      color: white;
+      font-family: Roboto, serif;
+      font-size: 14px;
+    }
+  }
+}

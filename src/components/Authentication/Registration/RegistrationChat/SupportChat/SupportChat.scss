@@ -1,0 +1,48 @@
+.support-chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #c4c4c4;
+  padding: 20px;
+  font-size: 14px;
+  margin-bottom: 80px;
+
+  .top-part {
+    display: flex;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c4c4c4;
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      background: #c4c4c4;
+      margin-right: 20px;
+    }
+
+    .name {
+      font-size: 18px;
+      margin-bottom: 4px;
+    }
+
+    .position {
+      font-size: 10px;
+      margin-bottom: 12px;
+    }
+
+    .email {
+      margin-bottom: 12px;
+    }
+  }
+
+  .bottom-part {
+    margin-top: 20px;
+    div {
+      margin-top: 20px;
+      font-family: Roboto, serif;
+      align-items: center;
+      padding: 0 20px;
+    }
+  }
+}
