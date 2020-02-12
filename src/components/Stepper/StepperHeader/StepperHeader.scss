@@ -1,0 +1,45 @@
+.header {
+  height: 4rem;
+  font-family: Roboto, sans-serif;
+
+  .title, .link {
+    font-weight: bold;
+  }
+
+  .title {
+    font-family: Gilroy-Bold, sans-serif;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .progress-bar {
+    height: 4px;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .steps {
+    display: flex;
+
+    .step {
+      display: flex;
+      color: #c4c4c4;
+      &:hover {
+        cursor: pointer;
+      }
+
+      &.current-step {
+        cursor: initial;
+        color: black;
+      }
+    }
+
+    .corner-right {
+      margin: 0 12px;
+    }
+  }
+
+
+}
