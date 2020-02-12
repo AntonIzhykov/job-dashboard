@@ -12,7 +12,7 @@ import { authRoutes, appRoutes } from './_routes';
 import { history } from 'store';
 import { AuthWrapper } from '../../components';
 
-const mergedRoutes = [...authRoutes, ...appRoutes ];
+const mergedRoutes = [...authRoutes, ...appRoutes];
 
 class AppRouter extends Component {
   render() {
@@ -23,7 +23,12 @@ class AppRouter extends Component {
             {mergedRoutes.map((route, i) => (
               <RenderRoute authenticated={this.props.authenticated} key={i} {...route} />
             ))}
-            <RenderRoute authenticated={!this.props.authenticated} exact path="/" component={() => <AuthWrapper children={<Login/>} />} />
+            <RenderRoute
+              authenticated={!this.props.authenticated}
+              exact
+              path="/"
+              component={() => <AuthWrapper children={<Login />} />}
+            />
             <Route component={NotFound} />
           </Switch>
         </ContentWrapper>
@@ -38,7 +43,4 @@ function mapStateToProps(state) {
   };
 }
 
-export default connect(
-  mapStateToProps,
-  {}
-)(AppRouter);
+export default connect(mapStateToProps, {})(AppRouter);
